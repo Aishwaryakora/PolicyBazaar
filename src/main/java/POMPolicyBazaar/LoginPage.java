@@ -20,7 +20,7 @@ public class LoginPage {
 
 			@FindBy(xpath = "//div[text()='My Account']") private WebElement myAccountButton;
 
-			@FindBy(xpath = "//span[text()=' My profile']")private WebElement myProfile;
+			@FindBy(xpath = "//span[text()=' My profile ']") private WebElement myProfile;
 
 			//constructor
 
@@ -39,7 +39,7 @@ public class LoginPage {
 
 			public void enterMobileNum()
 			{
-			mobileNumberFiled.sendKeys("9108991534");
+			mobileNumberFiled.sendKeys("8149823019");
 			}
 
 			public void clickOnSignInWithPassword()
@@ -49,7 +49,7 @@ public class LoginPage {
 
 			public void enterPassword()
 			{
-			passwordField.sendKeys("Kora@6006");
+			passwordField.sendKeys("namita@5507");
 			}
 
 			public void clickOnSignInButton()
